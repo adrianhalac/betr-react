@@ -5,7 +5,7 @@ class Bar extends Component {
     render(){
         let { strength, bounder } = this.props;
         let lengthStyle = {
-            width: (strength/bounder) + '%'
+            width: (Math.floor(strength/bounder) * 100) + '%'
         };
         return(
             <div className="Bar" style={lengthStyle}></div>

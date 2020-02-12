@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import './InputBar.css';
 
 class InputBar extends Component {
     render(){
         return(
             <div className="InputBar">
-                <h1>Input bar here</h1>
+                <input className="InputBar-Input" type="text"></input>
             </div>
         );
     }

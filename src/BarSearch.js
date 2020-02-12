@@ -4,12 +4,7 @@ import BarList from './BarList.js';
 
 class BarSearch extends Component {
     render(){
-        let barValues = [
-            {key:1, name:'Jack', strength:10},
-            {key:2, name:'Jill', strength:5},
-            {key:3, name:'John', strength:7},
-            {key:4, name:'Kassem', strength:3}
-        ];
+        let barValues = this.props.barValues;
         return(
             <div className="BarSearch">
                 <InputBar />

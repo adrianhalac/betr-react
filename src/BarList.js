@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import NameBar from './NameBar.js';
+import './BarList.css';
 
 class BarList extends Component {
     render(){
