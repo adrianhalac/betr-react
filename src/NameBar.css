@@ -1,0 +1,11 @@
+.NameBar {
+
+}
+
+.NameBar-Name {
+    float: right;
+}
+
+.NameBar-Bar {
+    float: left;
+}
